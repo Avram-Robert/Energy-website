@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitNonCommit</title>
+    <link rel="stylesheet" href="styling/globalStyle.css" />
+    <link rel="stylesheet" href="styling/eoliene.css" />
+  </head>
+  <body>
+    <div class="loading-screen" id="loading-screen"></div>
+    <header>
+      <img src="media/images/wind_photo.png" alt="wind" class="wind" />
+      <nav class="top-nav">
+        <div class="logo-container">
+          <img src="media/images/logo.png" alt="logo" />
+          <span class="logo-text">GitNonCommit</span>
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-button-container" for="menu-toggle">
+          <div class="menu-button"></div>
+        </label>
+        <ul class="menu">
+          <li><a href="index.html">Pagina principală</a></li>
+          <li><a href="eoliana.html" class="active">Energia Eoliana</a></li>
+          <li><a href="solar.html">Energia Solara</a></li>
+          <li><a href="hidroelectrica.html">Energia Hidroelectrica</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="page-title">
+      <h2>Energia Eoliană</h2>
+    </section>
+
+    <div class="container">
+      <div class="container-elice">
+        <img id="elice" src="media/images/eol_media/elice.png" alt="Elice" />
+        <button onclick="rotesteImagine()">Rotește eoliana</button>
+      </div>
+      <div class="container-informatie">
+        <h3>De ce să folosim Eolienele?</h3>
+        <p>
+          Energia eoliană este una dintre cele mai promițătoare surse de energie
+          regenerabilă în prezent. Ea este generată prin utilizarea forței
+          vântului pentru a produce electricitate. Turbinele eoliene, alcătuite
+          din palete care se rotesc odată ce sunt lovite de vânt, transformă
+          energia cinetică a acestuia în energie electrică.
+        </p>
+      </div>
+    </div>
+
+    <script src="scripts/eoliene/script.js"></script>
+
+    <section class="landing-page">
+      <div class="feature">
+        <img
+          src="media/images/eol_media/eol_field_im.jpg"
+          alt="Feature 1"
+          class="feature-image"
+        />
+        <h2 class="feature-title">Energie curată din forța vântului</h2>
+      </div>
+      <div class="feature">
+        <img
+          src="media/images/eol_media/eol_sea_eol.jpg"
+          alt="Feature 2"
+          class="feature-image"
+        />
+        <h2 class="feature-title">Transformând vântul în electricitate</h2>
+      </div>
+      <div class="feature">
+        <img
+          src="media/images/eol_media/eol_cute_pic.jpg"
+          alt="Feature 3"
+          height="200px"
+          class="feature-image"
+        />
+        <h2 class="feature-title">
+          Surprinzând vântul pentru un viitor mai verde
+        </h2>
+      </div>
+      <div class="feature">
+        <img
+          src="media/images/eol_media/eol_mini_graph.jpg"
+          alt="Feature 4"
+          class="feature-image"
+        />
+        <h2 class="feature-title">Soluție ecologică și durabilă</h2>
+      </div>
+      <div class="feature">
+        <img
+          src="media/images/eol_media/eol_behind_the_scenes.jpg"
+          alt="Feature 5"
+          class="feature-image"
+        />
+        <h2 class="feature-title">Sursă de energie sustenabilă</h2>
+      </div>
+      <div class="feature">
+        <img
+          src="media/images/eol_media/eol_green_vs_fossil.jpg"
+          alt="Feature 6"
+          class="feature-image"
+        />
+        <h2 class="feature-title">Inovație verde</h2>
+      </div>
+    </section>
+    <!-- <p>
+      Această formă de energie are multiple beneficii, fiind considerată curată
+      și sustenabilă, deoarece nu emite gaze cu efect de seră sau alte poluante
+      în timpul procesului de generare a electricității. Totodată, energia
+      eoliană contribuie la diversificarea surselor de energie și la reducerea
+      dependenței de combustibilii fosili.
+    </p>
+    <p>
+      Cu ajutorul tehnologiilor moderne, parcurile eoliene sunt construite pe
+      uscat sau în largul mării, unde vânturile sunt mai constante și mai
+      puternice. În prezent, această formă de energie este tot mai utilizată la
+      nivel global, contribuind semnificativ la producția de electricitate verde
+      și la eforturile de combatere a schimbărilor climatice.
+    </p>
+  -->
+    <script src="scripts/wind.js"></script>
+    <script src="scripts/globalScript.js"></script>
+  </body>
+  <footer>
+    <p>Developed by</p>
+    <ul>
+      Guzencu Claudiu-Florentin
+    </ul>
+    <ul>
+      Cucu Mihai-Razvan
+    </ul>
+    <ul>
+      Pletea-Marinescu Valentin
+    </ul>
+    <ul>
+      Avram Robert Ionut
+    </ul>
+  </footer>
+</html>
